@@ -1,0 +1,41 @@
+body, h1, p {
+	margin: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 2.0rem;
+}
+
+h1 {
+	font-family: Georgia,serif;
+	font-size: 6.0rem;
+	font-weight: lighter;
+	margin: 3.0rem 0 0 0;
+}
+
+p {
+	line-height: 150%;
+	margin-top: 2.0rem;
+}
+
+.slide {
+	margin: 1.0rem;
+}
+
+.title-block {
+	display: inline-block;
+	margin-bottom: 6.0rem;
+}
+
+.subtitle {
+	font-family: Georgia,serif;
+	font-style: italic;
+	font-size: 1.75rem;
+	text-align: right;
+	margin-top: 0;
+}
