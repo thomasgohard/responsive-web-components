@@ -1,4 +1,4 @@
-body, h1, p {
+body, h1, h2, h3, h4, h5, h6, p {
 	margin: 0;
 }
 
@@ -12,21 +12,69 @@ body {
 	padding: 2.0rem;
 }
 
-h1 {
+header {
+	margin-bottom: 6.0rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
 	font-family: Georgia,serif;
-	font-size: 6.0rem;
 	font-weight: lighter;
-	margin: 3.0rem 0 0 0;
+	margin: 6.0rem 0 0 0;
+}
+
+h1 {
+	font-size: 6.0rem;
+	margin-top: 3.0rem;
+}
+
+h2 {
+	font-size: 4.5rem;
+}
+
+h3 {
+	font-size: 4.0rem;
+	font-style: italic;
+}
+
+h4 {
+	font-size: 3.0rem;
+}
+
+h5 {
+	font-size: 2.75rem;
+	font-style: italic;
+}
+
+h6 {
+	font-size: 2.5rem;
 }
 
 p {
 	line-height: 150%;
-	margin-top: 2.0rem;
+	margin-top: 3.0rem;
+}
+
+ul {
+	margin-top: 1.0rem;
+}
+
+li {
+	margin-top: 1.0rem;
+	line-height: 150%;
 }
 
 .title-block {
 	display: inline-block;
-	margin-bottom: 6.0rem;
+	padding-bottom: 1.0rem;
+	border-bottom: 1px solid #000;
+}
+
+.centred {
+	text-align: center;
+}
+
+.left-aligned {
+	text-align: left;
 }
 
 .subtitle {
