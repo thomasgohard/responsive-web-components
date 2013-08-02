@@ -1,4 +1,4 @@
-responsive-web-components
+responsive-web-objects
 =========================
 
 A new approach to responsive Web design.
